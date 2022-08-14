@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Frederik\\Desktop\\DIKUGames-master\\SuperMarioBroski\\SuperMarioBroski.csproj": {}
+    "C:\\Users\\madsl\\home\\kode\\C#\\SuperMax\\SuperMax\\SuperMarioBroski.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Frederik\\Desktop\\DIKUGames-master\\DIKUArcade\\DIKUArcade\\DIKUArcade.csproj": {
+    "C:\\Users\\madsl\\home\\kode\\C#\\SuperMax\\DIKUArcade\\DIKUArcade\\DIKUArcade.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Frederik\\Desktop\\DIKUGames-master\\DIKUArcade\\DIKUArcade\\DIKUArcade.csproj",
+        "projectUniqueName": "C:\\Users\\madsl\\home\\kode\\C#\\SuperMax\\DIKUArcade\\DIKUArcade\\DIKUArcade.csproj",
         "projectName": "DIKUArcade",
-        "projectPath": "C:\\Users\\Frederik\\Desktop\\DIKUGames-master\\DIKUArcade\\DIKUArcade\\DIKUArcade.csproj",
-        "packagesPath": "C:\\Users\\Frederik\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Frederik\\Desktop\\DIKUGames-master\\DIKUArcade\\DIKUArcade\\obj\\",
+        "projectPath": "C:\\Users\\madsl\\home\\kode\\C#\\SuperMax\\DIKUArcade\\DIKUArcade\\DIKUArcade.csproj",
+        "packagesPath": "C:\\Users\\madsl\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\madsl\\home\\kode\\C#\\SuperMax\\DIKUArcade\\DIKUArcade\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Frederik\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\madsl\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -53,44 +53,31 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Frederik\\Desktop\\DIKUGames-master\\SuperMarioBroski\\SuperMarioBroski.csproj": {
+    "C:\\Users\\madsl\\home\\kode\\C#\\SuperMax\\SuperMax\\SuperMarioBroski.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Frederik\\Desktop\\DIKUGames-master\\SuperMarioBroski\\SuperMarioBroski.csproj",
+        "projectUniqueName": "C:\\Users\\madsl\\home\\kode\\C#\\SuperMax\\SuperMax\\SuperMarioBroski.csproj",
         "projectName": "SuperMarioBroski",
-        "projectPath": "C:\\Users\\Frederik\\Desktop\\DIKUGames-master\\SuperMarioBroski\\SuperMarioBroski.csproj",
-        "packagesPath": "C:\\Users\\Frederik\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Frederik\\Desktop\\DIKUGames-master\\SuperMarioBroski\\obj\\",
+        "projectPath": "C:\\Users\\madsl\\home\\kode\\C#\\SuperMax\\SuperMax\\SuperMarioBroski.csproj",
+        "packagesPath": "C:\\Users\\madsl\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\madsl\\home\\kode\\C#\\SuperMax\\SuperMax\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Frederik\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\madsl\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -102,8 +89,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Frederik\\Desktop\\DIKUGames-master\\DIKUArcade\\DIKUArcade\\DIKUArcade.csproj": {
-                "projectPath": "C:\\Users\\Frederik\\Desktop\\DIKUGames-master\\DIKUArcade\\DIKUArcade\\DIKUArcade.csproj"
+              "C:\\Users\\madsl\\home\\kode\\C#\\SuperMax\\DIKUArcade\\DIKUArcade\\DIKUArcade.csproj": {
+                "projectPath": "C:\\Users\\madsl\\home\\kode\\C#\\SuperMax\\DIKUArcade\\DIKUArcade\\DIKUArcade.csproj"
               }
             }
           }
@@ -123,34 +110,17 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[5.0.17, 5.0.17]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

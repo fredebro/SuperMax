@@ -17,10 +17,14 @@
           "Microsoft.NETCore.Platforms": "5.0.0"
         },
         "compile": {
-          "ref/netstandard2.0/_._": {}
+          "ref/netstandard2.0/_._": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.Win32.SystemEvents.dll": {}
+          "lib/netstandard2.0/Microsoft.Win32.SystemEvents.dll": {
+            "related": ".xml"
+          }
         },
         "runtimeTargets": {
           "runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll": {
@@ -46,19 +50,27 @@
       "OpenTK.Compute/4.5.0": {
         "type": "package",
         "compile": {
-          "lib/netcoreapp3.1/OpenTK.Compute.dll": {}
+          "lib/netcoreapp3.1/OpenTK.Compute.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "runtime": {
-          "lib/netcoreapp3.1/OpenTK.Compute.dll": {}
+          "lib/netcoreapp3.1/OpenTK.Compute.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       },
       "OpenTK.Core/4.5.0": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.1/OpenTK.Core.dll": {}
+          "lib/netstandard2.1/OpenTK.Core.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.1/OpenTK.Core.dll": {}
+          "lib/netstandard2.1/OpenTK.Core.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       },
       "OpenTK.Graphics/4.5.0": {
@@ -68,28 +80,40 @@
           "OpenTK.Mathematics": "[4.5.0, 4.6.0)"
         },
         "compile": {
-          "lib/netstandard2.1/OpenTK.Graphics.dll": {}
+          "lib/netstandard2.1/OpenTK.Graphics.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.1/OpenTK.Graphics.dll": {}
+          "lib/netstandard2.1/OpenTK.Graphics.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       },
       "OpenTK.Input/4.5.0": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/OpenTK.Input.dll": {}
+          "lib/netstandard2.0/OpenTK.Input.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/OpenTK.Input.dll": {}
+          "lib/netstandard2.0/OpenTK.Input.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       },
       "OpenTK.Mathematics/4.5.0": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.1/OpenTK.Mathematics.dll": {}
+          "lib/netstandard2.1/OpenTK.Mathematics.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.1/OpenTK.Mathematics.dll": {}
+          "lib/netstandard2.1/OpenTK.Mathematics.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       },
       "OpenTK.OpenAL/4.5.0": {
@@ -99,10 +123,14 @@
           "OpenTK.Mathematics": "[4.5.0, 4.6.0)"
         },
         "compile": {
-          "lib/netcoreapp3.1/OpenTK.OpenAL.dll": {}
+          "lib/netcoreapp3.1/OpenTK.OpenAL.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "runtime": {
-          "lib/netcoreapp3.1/OpenTK.OpenAL.dll": {}
+          "lib/netcoreapp3.1/OpenTK.OpenAL.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       },
       "OpenTK.redist.glfw/3.3.0-pre20200830200122": {
@@ -133,10 +161,14 @@
           "OpenTK.Mathematics": "[4.5.0, 4.6.0)"
         },
         "compile": {
-          "lib/netstandard2.1/OpenTK.Windowing.Common.dll": {}
+          "lib/netstandard2.1/OpenTK.Windowing.Common.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.1/OpenTK.Windowing.Common.dll": {}
+          "lib/netstandard2.1/OpenTK.Windowing.Common.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       },
       "OpenTK.Windowing.Desktop/4.5.0": {
@@ -148,10 +180,14 @@
           "OpenTK.Windowing.GraphicsLibraryFramework": "[4.5.0, 4.6.0)"
         },
         "compile": {
-          "lib/netcoreapp3.1/OpenTK.Windowing.Desktop.dll": {}
+          "lib/netcoreapp3.1/OpenTK.Windowing.Desktop.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "runtime": {
-          "lib/netcoreapp3.1/OpenTK.Windowing.Desktop.dll": {}
+          "lib/netcoreapp3.1/OpenTK.Windowing.Desktop.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       },
       "OpenTK.Windowing.GraphicsLibraryFramework/4.5.0": {
@@ -161,10 +197,14 @@
           "OpenTK.redist.glfw": "[3.3.0-pre20200830200122, 3.4.0-pre)"
         },
         "compile": {
-          "lib/netcoreapp3.1/OpenTK.Windowing.GraphicsLibraryFramework.dll": {}
+          "lib/netcoreapp3.1/OpenTK.Windowing.GraphicsLibraryFramework.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "runtime": {
-          "lib/netcoreapp3.1/OpenTK.Windowing.GraphicsLibraryFramework.dll": {}
+          "lib/netcoreapp3.1/OpenTK.Windowing.GraphicsLibraryFramework.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       },
       "System.Drawing.Common/5.0.1": {
@@ -173,10 +213,14 @@
           "Microsoft.Win32.SystemEvents": "5.0.0"
         },
         "compile": {
-          "ref/netcoreapp3.0/System.Drawing.Common.dll": {}
+          "ref/netcoreapp3.0/System.Drawing.Common.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netcoreapp3.0/System.Drawing.Common.dll": {}
+          "lib/netcoreapp3.0/System.Drawing.Common.dll": {
+            "related": ".xml"
+          }
         },
         "runtimeTargets": {
           "runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll": {
@@ -460,19 +504,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Frederik\\.nuget\\packages\\": {}
+    "C:\\Users\\madsl\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Frederik\\Desktop\\DIKUGames-master\\SuperMarioBroski\\SuperMarioBroski.csproj",
+      "projectUniqueName": "C:\\Users\\madsl\\home\\kode\\C#\\SuperMax\\SuperMax\\SuperMarioBroski.csproj",
       "projectName": "SuperMarioBroski",
-      "projectPath": "C:\\Users\\Frederik\\Desktop\\DIKUGames-master\\SuperMarioBroski\\SuperMarioBroski.csproj",
-      "packagesPath": "C:\\Users\\Frederik\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Frederik\\Desktop\\DIKUGames-master\\SuperMarioBroski\\obj\\",
+      "projectPath": "C:\\Users\\madsl\\home\\kode\\C#\\SuperMax\\SuperMax\\SuperMarioBroski.csproj",
+      "packagesPath": "C:\\Users\\madsl\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\madsl\\home\\kode\\C#\\SuperMax\\SuperMax\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Frederik\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\madsl\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -484,8 +528,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\Frederik\\Desktop\\DIKUGames-master\\DIKUArcade\\DIKUArcade\\DIKUArcade.csproj": {
-              "projectPath": "C:\\Users\\Frederik\\Desktop\\DIKUGames-master\\DIKUArcade\\DIKUArcade\\DIKUArcade.csproj"
+            "C:\\Users\\madsl\\home\\kode\\C#\\SuperMax\\DIKUArcade\\DIKUArcade\\DIKUArcade.csproj": {
+              "projectPath": "C:\\Users\\madsl\\home\\kode\\C#\\SuperMax\\DIKUArcade\\DIKUArcade\\DIKUArcade.csproj"
             }
           }
         }
@@ -505,34 +549,17 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[5.0.0, 5.0.0]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[5.0.17, 5.0.17]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[5.0.0, 5.0.0]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[5.0.0, 5.0.0]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -71,9 +71,9 @@ namespace SuperMarioBroski {
         player.Collision(blockTest);
         player.moveleft(left);
 
-        if (player.isColliding){
-            System.Console.WriteLine(player.isColliding);
-        }
+        // if (player.isColliding){
+        //     System.Console.WriteLine(player.isColliding);
+        // }
         player.jump(up, blocks, player);
        }
         
