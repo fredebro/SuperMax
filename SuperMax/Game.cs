@@ -4,7 +4,7 @@ using DIKUArcade.GUI;
 using DIKUArcade.Input;
 using DIKUArcade.Events;
 using System.Collections.Generic;
-/// Læssøe was here
+
 
 namespace SuperMarioBroski {
     public class Game : DIKUGame, IGameEventProcessor {
